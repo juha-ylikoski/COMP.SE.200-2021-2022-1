@@ -5,13 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage --collectCoverageFrom './src/*.js'"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.1.3"
+    "jest": "^27.4.0",
+    "jest-html-reporter": "^3.4.1"
   }
 }

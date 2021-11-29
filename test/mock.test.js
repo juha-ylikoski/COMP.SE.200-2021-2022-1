@@ -1,16 +1,15 @@
 // node 12 and up
-//import chai from "chai"
-//import sum from "../sum.js"
-// below for node 10
-var chai = require("chai")
-const expect = chai.expect
-
+import add from "../src/add"
 
 describe("cases", () => {
  it("Fail", () =>{
-     expect(1).to.equal(2)
+     expect(1).toEqual(2)
  });
  it("Success", () =>{
-    expect(2).to.equal(2)
+    expect(2).toEqual(2)
 });
+it("Success", () =>{
+    expect(add(2,1)).toEqual(2)
+});
+
 })
