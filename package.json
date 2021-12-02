@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest",
-    "coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage --collectCoverageFrom './src/*.js'"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest --coverage",
+    "coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --collectCoverageFrom './src/*.js'"
   },
   "author": "",
   "license": "MIT",
