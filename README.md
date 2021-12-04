@@ -2,7 +2,6 @@
 <a href = "https://github.com/juha-ylikoski/COMP.SE.200-2021-2022-1/graphs/contributors">
 <img src = "https://contrib.rocks/image?repo=juha-ylikoski/COMP.SE.200-2021-2022-1"/>
 </a>
-Made with [contributors-img](https://contrib.rocks).
 
 ## Here is a random joke
 
